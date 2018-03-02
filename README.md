@@ -239,5 +239,19 @@ products = openfoodfacts.products.get_by_state(state)
 product = openfoodfacts.products.get_product(barcode)
 ```
 
+#### Contributor
+
+*Get a given contributor.*
+
+```python
+contributor = openfoodfacts.contributor.get_contributor(username)
+```
+
+*Get the number of products of a given contributor.*
+
+```python
+contributor = openfoodfacts.contributor.get_count(username)
+```
+
 
 
